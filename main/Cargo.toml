@@ -1,0 +1,16 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "mgen"
+path = "src/main.rs"
+
+[dependencies]
+fib = { path = "../fib"}
+prime = { path = "../prime"}
+clap = { version = "4.5.32", features = ["cargo", "derive"] }
+clap_derive = { version = "4.0.0-rc.1" }
+rand = "0.9.0"
+

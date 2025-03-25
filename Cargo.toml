@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = [
+    "main",
+    "fib",
+    "prime",
+]
+
+[workspace.dependencies]
